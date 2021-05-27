@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Android Login and Registration</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="action_settings">Settings</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+    <string name="welcome">Please enter weight and age then press button for test</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="name">Fullname</string>
+    <string name="btnStart">Start</string>
+    <string name="content">Show Results</string>
+    <string name="screen_page_text">---</string>
+
+
+
+    <string name="str_btn_find">Find</string>
+    <string name="title_activity_result">Results</string>
+    <string name="beginning">Beginning</string>
+    <string name="end">End</string>
+    <string name="show">Show</string>
+
+    <string name="txtValue">---</string>
+
+    <string name="title_activity_advice">Advice</string>
+    <string name="title_activity_pharm">Pharmacy</string>
+
+    <string name="title_activity_hospital">Hospital</string>
+
+    <string name="title_activity_second">Second Activity</string>
+    <string name="login_text">Login Page</string>
+    <string name="username_text">User Name</string>
+    <string name="password_text">Password</string>
+    <string name="attempt_text">Attempt</string>
+    <string name="button_login_text">Login</string>
+
+
+    <string-array name="place_type">
+        <item>airport</item>
+        <item>atm</item>
+        <item>bank</item>
+        <item>bus_station</item>
+        <item>church</item>
+        <item>doctor</item>
+        <item>hospital</item>
+        <item>mosque</item>
+        <item>movie_theater</item>
+        <item>hindu_temple</item>
+        <item>restaurant</item>
+    </string-array>
+
+    <string-array name="place_type_name">
+        <item>Airport</item>
+        <item>ATM</item>
+        <item>Bank</item>
+        <item>Bus Station</item>
+        <item>Church</item>
+        <item>Doctor</item>
+        <item>Hospital</item>
+        <item>Mosque</item>
+        <item>Movie Theater</item>
+        <item>Hindu Temple</item>
+        <item>Restaurant</item>
+    </string-array>
+
+
+
+
+    <string name="txtAbout">A blood test is needed to determine the effect of warfarin for each person and this is measured as the International Normalised Ratio or INR.  The INR is a measure of how long it takes for blood to clot.
+The INR for a person not taking warfarin is 1. The higher the INR, the longer it takes for blood to clot. The desired INR for you will depend on the reason for which you are taking warfarin.
+Your doctors will try and keep your INR within a range – called the target INR range.
+The target INR range is different for different conditions.  For example, for people with atrial fibrillation - an irregular heart beat in the top chambers of the heart - the target INR range is usually 2 to 3. Higher INR ranges are recommended for people who have a mechanical heart valve or for those with some irregular clotting conditions.
+Clotting is necessary to stop bleeding when you cut yourself.  When taking warfarin your clotting time is increased so it takes longer for a clot to form. Having your INR in the correct range reduces the risk of potentially dangerous bleeding.
+Generally regular blood tests are essential to check that your INR is within the correct range.Your doctor will tell you the correct range for your condition.
+Your doctor will also tell you how often you will need to have a blood test.  When you first start taking warfarin these tests will be frequent, often every one or two days for the first week.  Once your INR has stabilised, testing is usually only repeated every 4 weeks, or as often as your doctor tells you.  Your dose of warfarin may be changed based on the blood test results.
+     </string>
+    <string name="btnNew">About</string>
+</resources>

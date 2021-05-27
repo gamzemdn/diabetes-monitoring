@@ -1,0 +1,140 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/relativeLayout"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnStart"
+        android:id="@+id/btnStart"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/editTextAge"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/btn_logut_bg"
+        android:text="@string/btn_logout"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgResult"
+        android:src="@drawable/pie_chart_01"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="bottom" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgHospital"
+        android:src="@drawable/hospital"
+        android:layout_alignTop="@+id/imgResult"
+        android:layout_toRightOf="@+id/imgResult"
+        android:layout_toEndOf="@+id/imgResult" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgPharm"
+        android:src="@drawable/pharmacy"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/imgAdvice"
+        android:layout_toStartOf="@+id/imgAdvice" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgAdvice"
+        android:src="@drawable/medical_invoice_information"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/screen_page_text"
+        android:id="@+id/txtValue"
+        android:layout_above="@+id/imgResult"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="54dp" />
+
+    <TextView
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome"
+        android:textSize="20dp"
+        android:id="@+id/textView"
+        android:textColor="#010101"
+        android:layout_below="@+id/btnLogout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp" />
+
+    <TextView
+        android:id="@+id/kilo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:text="Weight:"
+        android:layout_gravity="left"
+        android:layout_marginTop="51dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView" />
+
+    <TextView
+        android:id="@+id/age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="Age:"
+        android:textColor="#000000"
+        android:layout_alignBottom="@+id/editTextAge"
+        android:layout_alignLeft="@+id/kilo"
+        android:layout_alignStart="@+id/kilo" />
+
+    <EditText
+        android:layout_width="77dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/editTextAge"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/kilo"
+        android:layout_alignRight="@+id/btnStart"
+        android:layout_alignEnd="@+id/btnStart"
+        android:layout_alignLeft="@+id/btnStart"
+        android:layout_alignStart="@+id/btnStart" />
+
+    <EditText
+        android:layout_width="77dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/editTextKilo"
+        android:layout_gravity="center_horizontal"
+        android:layout_above="@+id/editTextAge"
+        android:layout_alignLeft="@+id/editTextAge"
+        android:layout_alignStart="@+id/editTextAge"
+        android:layout_alignRight="@+id/editTextAge"
+        android:layout_alignEnd="@+id/editTextAge" />
+
+
+</RelativeLayout>

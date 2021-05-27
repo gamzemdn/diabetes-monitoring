@@ -1,0 +1,209 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".Advice" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Number of times pregnant:"
+        android:id="@+id/pregTextView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="132dp" />
+
+    <EditText
+        android:layout_width="400px"
+        android:layout_height="wrap_content"
+        android:id="@+id/pregEditText"
+        android:layout_alignBottom="@+id/pregTextView"
+        android:layout_toEndOf="@+id/skinTextView"
+        android:layout_toRightOf="@+id/skinTextView"
+        android:numeric="integer"
+        android:inputType="number" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Blood Glucose Level:"
+        android:id="@+id/bglTextView"
+        android:layout_below="@+id/pregTextView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="25dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bglEditText"
+        android:layout_alignBottom="@+id/bglTextView"
+        android:layout_alignRight="@+id/pregEditText"
+        android:layout_alignEnd="@+id/pregEditText"
+        android:layout_toEndOf="@+id/skinTextView"
+        android:layout_toRightOf="@+id/skinTextView"
+        android:numeric="integer"
+        android:inputType="number" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Blood Pressure(mmHg):"
+        android:id="@+id/pressureTextView"
+        android:layout_alignBottom="@+id/pressureEditText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pressureEditText"
+        android:layout_below="@+id/bglEditText"
+        android:layout_alignRight="@+id/bglEditText"
+        android:layout_alignEnd="@+id/bglEditText"
+        android:layout_toRightOf="@+id/skinTextView"
+        android:layout_toEndOf="@+id/skinTextView"
+        android:numeric="integer"
+        android:inputType="number" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Triceps skinfold thickness(mm):"
+        android:id="@+id/skinTextView"
+        android:layout_below="@+id/pressureTextView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="29dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/skinEditText"
+        android:layout_alignBottom="@+id/skinTextView"
+        android:layout_toRightOf="@+id/skinTextView"
+        android:layout_alignRight="@+id/pressureEditText"
+        android:layout_alignEnd="@+id/pressureEditText"
+        android:numeric="integer"
+        android:inputType="number" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Insulin(muU/ml):"
+        android:id="@+id/insulinTextView"
+        android:layout_marginTop="24dp"
+        android:layout_below="@+id/skinTextView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/insulinEditText"
+        android:layout_alignBottom="@+id/insulinTextView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/skinTextView"
+        android:layout_toEndOf="@+id/skinTextView"
+        android:numeric="integer"
+        android:inputType="number" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter weight:"
+        android:id="@+id/weightTextView"
+        android:layout_alignBottom="@+id/weightEditText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/weightEditText"
+        android:layout_alignLeft="@+id/insulinEditText"
+        android:layout_alignStart="@+id/insulinEditText"
+        android:layout_below="@+id/insulinTextView"
+        android:layout_alignRight="@+id/insulinEditText"
+        android:layout_alignEnd="@+id/insulinEditText"
+        android:numeric="decimal"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter height:"
+        android:id="@+id/heightTextView"
+        android:layout_alignBottom="@+id/heightEditView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/heightEditView"
+        android:layout_below="@+id/weightTextView"
+        android:layout_alignLeft="@+id/weightEditText"
+        android:layout_alignStart="@+id/weightEditText"
+        android:layout_alignRight="@+id/weightEditText"
+        android:layout_alignEnd="@+id/weightEditText"
+        android:numeric="decimal"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Age:"
+        android:id="@+id/textView2"
+        android:layout_alignBottom="@+id/ageEditText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ageEditText"
+        android:layout_below="@+id/heightTextView"
+        android:layout_alignLeft="@+id/heightEditView"
+        android:layout_alignStart="@+id/heightEditView"
+        android:layout_alignRight="@+id/heightEditView"
+        android:layout_alignEnd="@+id/heightEditView"
+        android:numeric="integer"
+        android:inputType="number" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Diabetes Detection System"
+        android:id="@+id/textView3"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Please complete the form below"
+        android:id="@+id/textView4"
+        android:layout_above="@+id/pregEditText"
+        android:layout_alignRight="@+id/textView3"
+        android:layout_alignEnd="@+id/textView3" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:id="@+id/btnsubmit"
+        android:layout_below="@+id/ageEditText"
+        android:layout_toRightOf="@+id/bglTextView"
+        android:textStyle="normal"
+        android:typeface="normal"
+        android:singleLine="false" />
+
+</RelativeLayout>

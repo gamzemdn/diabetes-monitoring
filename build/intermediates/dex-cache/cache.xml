@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\GkalpG\AndroidStudioProjects\AndroidLoginAndRegistration v2\AndroidLoginAndRegistration\app\libs\wekaSTRIPPED.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1d553332d3346a8efe1d52000973115cc5ef975d">
+        <dex dex="C:\Users\GkalpG\AndroidStudioProjects\AndroidLoginAndRegistration v2\AndroidLoginAndRegistration\app\build\intermediates\pre-dexed\debug\wekaSTRIPPED-43ff4aa6cf12efd7da034ce8d81521fbb5bfdc64.jar" />
+    </item>
+
+</items>
